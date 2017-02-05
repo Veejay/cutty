@@ -1,0 +1,22 @@
+{
+  "name": "image_resize",
+  "version": "1.0.0",
+  "description": "Resize image as a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "resise",
+    "libvips",
+    "node"
+  ],
+  "author": "Bertrand Chardon",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "sharp": "^0.17.1"
+  }
+}
